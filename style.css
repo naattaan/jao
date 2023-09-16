@@ -49,15 +49,22 @@ i {
 
 @keyframes shadow-animation {
     0% {
-        filter: drop-shadow(0 0 0 rgb(209, 24, 138))    }
+        filter: drop-shadow(0 0 0 rgb(209, 24, 138))  
+      }
+    
+
     100% {
-        filter: drop-shadow(0px 0 20px rgb(209, 24, 138))
+        filter: drop-shadow(0px 0 20px rgb(209, 24, 138));
+        transform: scale(1.2);
+
     }
 }
 @keyframes shadow-animation2 {
     0% {
         filter: drop-shadow(0 0 0 rgb(31, 209, 31))    }
     100% {
-        filter: drop-shadow(0px 0 20px rgb(31, 209, 31))
+        filter: drop-shadow(0px 0 20px rgb(31, 209, 31));
+        transform: scale(1.2);
+
     }
 }
