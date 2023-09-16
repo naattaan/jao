@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+h1{
+    color: white;
+    font-size: 40px;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.fa-whatsapp {
+    color: rgb(34, 100, 34);
+    animation: shadow-animation2 1.3s infinite alternate;
+
+}
+a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+p{
+    font-style:initial;
+    font-size: 20px;
+    color: white;
+}
+
+.fa-instagram {
+  color: rgb(129, 31, 92);  
+  animation: shadow-animation 1.3s infinite alternate;
+
+}
+i {
+    font-size: 100px;
+    border-radius: 20px;
+}
+
+@keyframes shadow-animation {
+    0% {
+        filter: drop-shadow(0 0 0 rgb(209, 24, 138))    }
+    100% {
+        filter: drop-shadow(0px 0 20px rgb(209, 24, 138))
+    }
+}
+@keyframes shadow-animation2 {
+    0% {
+        filter: drop-shadow(0 0 0 rgb(31, 209, 31))    }
+    100% {
+        filter: drop-shadow(0px 0 20px rgb(31, 209, 31))
+    }
+}
